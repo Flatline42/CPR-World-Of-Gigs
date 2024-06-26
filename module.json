@@ -1,0 +1,62 @@
+{
+  "id": "world-of-gigs",
+  "title": "World of Gigs",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "cyberpunk-red-core",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "TheFlatline",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "world-of-gigs-tables",
+      "label": "World of Gigs Tables",
+      "path": "packs/world-of-gigs-tables",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cyberpunk-red-core",
+      "flags": {}
+    },
+    {
+      "name": "world-of-gigs-scripts",
+      "label": "World of Gigs Scripts",
+      "path": "packs/world-of-gigs-scripts",
+      "type": "Macro",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cyberpunk-red-core",
+      "flags": {}
+    },
+    {
+      "name": "world-of-gigs-journals",
+      "label": "World of Gigs Journals",
+      "path": "packs/world-of-gigs-journals",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "cyberpunk-red-core",
+      "flags": {}
+    }
+  ]
+}
